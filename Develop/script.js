@@ -23,7 +23,7 @@ function generatePassword(){
   else if (isNaN(passwordLength)) { 
     alert("Please enter numbers.");
   }
-  
+  //confirm statements//
   var confirmUpperCase = confirm('Would you like to include uppercase letters?');
   if (confirmUpperCase) {
       characters = characters.concat(upperCase);
