@@ -38,7 +38,13 @@ function generatePassword(){
   if (confirmNumber) {
       characters = characters.concat(number);
   }
+  
+  var confirmSymbol = confirm("Would you like to add symbols?");
+    if (confirmSymbol) {
+        characters = characters.concat(symbol);
+  }
 
+ 
   
 }
   
