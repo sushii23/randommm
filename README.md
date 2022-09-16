@@ -48,7 +48,7 @@ HTML, CSS, and Javascript
 
 # screenshot 
 
-![password gen](/random-pass/Develop/Screen%20Shot%202022-09-16%20at%203.21.09%20AM%20(3).png)
+![password](sc.png)
 
 
 
