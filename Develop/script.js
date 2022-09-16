@@ -19,20 +19,13 @@ function generatePassword(){
     alert ("Does not meet character requirement");
     return;
   }
-
+//if its not a number//
   else if (isNaN(passwordLength)) { 
     alert("Please enter numbers.");
   }
-  for (var i = 0; i < passwordLength; i++) {
-    console.log(i);
-    passwordText += characters[Math.floor(Math.random() * characters.length)]
-  }
-  
+
   
 
-
-
-}
 
 // Write password to the #password input
 function writePassword() {
