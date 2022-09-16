@@ -44,7 +44,11 @@ function generatePassword(){
         characters = characters.concat(symbol);
   }
 
- 
+  for (var i = 0; i < passwordLength; i++) {
+    console.log(i);
+    passwordText += characters[Math.floor(Math.random() * characters.length)]
+  }
+  return passwordText;
   
 }
   
