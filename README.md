@@ -50,6 +50,8 @@ HTML, CSS, and Javascript
 
 ![password](sc.png)
 
+![link](file:///Users/sushdawg/projects/random-pass/Develop/index.html)
+
 
 
 
